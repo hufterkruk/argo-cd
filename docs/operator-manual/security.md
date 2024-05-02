@@ -57,7 +57,7 @@ will have serious security implications outlined below.
 
 Since Argo CD deploys the Kubernetes resources defined in git, an attacker with access to a trusted
 git repo would be able to affect the Kubernetes resources which are deployed. For example, an
-attacker could update the deployment manifest deploy malicious container images to the environment,
+attacker could update the deployment manifest to deploy malicious container images to the environment,
 or delete resources in git causing them to be pruned in the live environment.
 
 ### Tool command invocation
